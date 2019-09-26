@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-StarWarTest" class="navigator-link">
+              <span class="suite-name border-passed">StarWarTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-StarWarTest" class="navigator-link ">
+                    <span>C:\Users\Dixit's\eclipse-Java\StarwarsTesting\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-StarWarTest" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-StarWarTest" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-StarWarTest" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-StarWarTest" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-StarWarTest" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-StarWarTest" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-StarWarTest" class="hide-methods passed suite-StarWarTest"> (hide)</a> <!-- hide-methods passed suite-StarWarTest -->
+                      <a href="#" panel-name="suite-StarWarTest" class="show-methods passed suite-StarWarTest"> (show)</a> <!-- show-methods passed suite-StarWarTest -->
+                    </span>
+                    <div class="method-list-content passed suite-StarWarTest">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-StarWarTest" title="com.testscripts.FilmsPageTest" class="method navigator-link" hash-for-method="verifyFilmList">verifyFilmList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-StarWarTest" title="com.testscripts.FilmsPageTest" class="method navigator-link" hash-for-method="verifyFilmPageOpen">verifyFilmPageOpen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-StarWarTest" title="com.testscripts.FilmsPageTest" class="method navigator-link" hash-for-method="verifyFilmPageOpenAfterSelectingFilm">verifyFilmPageOpenAfterSelectingFilm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-StarWarTest" title="com.testscripts.HomePageTest" class="method navigator-link" hash-for-method="verifyHomePageTitleTest">verifyHomePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-StarWarTest" title="com.testscripts.HomePageTest" class="method navigator-link" hash-for-method="verifyInvalidLogin">verifyInvalidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-StarWarTest" title="com.testscripts.FilmsPageTest" class="method navigator-link" hash-for-method="verifyListOfFilmsDisplayedInSelector">verifyListOfFilmsDisplayedInSelector</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-StarWarTest" title="com.testscripts.HomePageTest" class="method navigator-link" hash-for-method="verifyLoginWithValidData">verifyLoginWithValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-StarWarTest" title="com.testscripts.HomePageTest" class="method navigator-link" hash-for-method="verifyLogout">verifyLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-StarWarTest" title="com.testscripts.FilmsPageTest" class="method navigator-link" hash-for-method="verifyMovieOnIMDB">verifyMovieOnIMDB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-StarWarTest" title="com.testscripts.VideoPageTest" class="method navigator-link" hash-for-method="verifyNoResultFoundDisplayedForSpecialChar">verifyNoResultFoundDisplayedForSpecialChar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-StarWarTest" title="com.testscripts.VideoPageTest" class="method navigator-link" hash-for-method="verifyNoResultFoundSearch">verifyNoResultFoundSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-StarWarTest" title="com.testscripts.VideoPageTest" class="method navigator-link" hash-for-method="verifySearch">verifySearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-StarWarTest" title="com.testscripts.HomePageTest" class="method navigator-link" hash-for-method="verifySearchResultDisplayed">verifySearchResultDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-StarWarTest" title="com.testscripts.HomePageTest" class="method navigator-link" hash-for-method="verifySlideDisplayed">verifySlideDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-StarWarTest" title="com.testscripts.HomePageTest" class="method navigator-link" hash-for-method="verifySlideNextPrev">verifySlideNextPrev</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-StarWarTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-StarWarTest" class="panel StarWarTest">
+          <div class="suite-StarWarTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testscripts.VideoPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNoResultFoundDisplayedForSpecialChar">
+                  </a> <!-- verifyNoResultFoundDisplayedForSpecialChar -->
+                  <span class="method-name">verifyNoResultFoundDisplayedForSpecialChar</span>
+                  <em>
+(Verify No Result Found displayed if searched with special characters)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNoResultFoundSearch">
+                  </a> <!-- verifyNoResultFoundSearch -->
+                  <span class="method-name">verifyNoResultFoundSearch</span>
+                  <em>
+(Verify No Result Found displayed if searched video is not found)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearch">
+                  </a> <!-- verifySearch -->
+                  <span class="method-name">verifySearch</span>
+                  <em>
+(Verify User can search from VideoPage)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-StarWarTest-class-passed -->
+          <div class="suite-StarWarTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testscripts.FilmsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFilmList">
+                  </a> <!-- verifyFilmList -->
+                  <span class="method-name">verifyFilmList</span>
+                  <em>
+(Verify list of films are present in film page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFilmPageOpen">
+                  </a> <!-- verifyFilmPageOpen -->
+                  <span class="method-name">verifyFilmPageOpen</span>
+                  <em>
+(Verify FilmPage is displayed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFilmPageOpenAfterSelectingFilm">
+                  </a> <!-- verifyFilmPageOpenAfterSelectingFilm -->
+                  <span class="method-name">verifyFilmPageOpenAfterSelectingFilm</span>
+                  <em>
+(Verify selected film page get opened on selecting film from film dropdown)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyListOfFilmsDisplayedInSelector">
+                  </a> <!-- verifyListOfFilmsDisplayedInSelector -->
+                  <span class="method-name">verifyListOfFilmsDisplayedInSelector</span>
+                  <em>
+(Verify list of films are displayed in film dropdown)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMovieOnIMDB">
+                  </a> <!-- verifyMovieOnIMDB -->
+                  <span class="method-name">verifyMovieOnIMDB</span>
+                  <em>
+(Verify IMDB page get loaded with selected film)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-StarWarTest-class-passed -->
+          <div class="suite-StarWarTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testscripts.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageTitleTest">
+                  </a> <!-- verifyHomePageTitleTest -->
+                  <span class="method-name">verifyHomePageTitleTest</span>
+                  <em>
+(Verify homePage data and Title is displayed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidLogin">
+                  </a> <!-- verifyInvalidLogin -->
+                  <span class="method-name">verifyInvalidLogin</span>
+                  <em>
+(Verify user won't get login to account with invalid username and password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidData">
+                  </a> <!-- verifyLoginWithValidData -->
+                  <span class="method-name">verifyLoginWithValidData</span>
+                  <em>
+(Verify user can login to account with valid username and password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogout">
+                  </a> <!-- verifyLogout -->
+                  <span class="method-name">verifyLogout</span>
+                  <em>
+(Verify user can logout from account)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchResultDisplayed">
+                  </a> <!-- verifySearchResultDisplayed -->
+                  <span class="method-name">verifySearchResultDisplayed</span>
+                  <em>
+(Verify User can search from HomePage)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySlideDisplayed">
+                  </a> <!-- verifySlideDisplayed -->
+                  <span class="method-name">verifySlideDisplayed</span>
+                  <em>
+(Verify multiple slides are displayed on page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySlideNextPrev">
+                  </a> <!-- verifySlideNextPrev -->
+                  <span class="method-name">verifySlideNextPrev</span>
+                  <em>
+(Verify User can navigate to Next and Previous slides)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-StarWarTest-class-passed -->
+        </div> <!-- panel StarWarTest -->
+        <div panel-name="test-xml-StarWarTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Dixit's\eclipse-Java\StarwarsTesting\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;StarWarTest&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;StarWarTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testscripts.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.testscripts.VideoPageTest&quot;/&gt;
+      &lt;class name=&quot;com.testscripts.FilmsPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- StarWarTest --&gt;
+&lt;/suite&gt; &lt;!-- StarWarTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-StarWarTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for StarWarTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">StarWarTest (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-StarWarTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for StarWarTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-StarWarTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for StarWarTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_StarWarTest');
+function tableData_StarWarTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyFilmPageOpenAfterSelectingFilm')
+data.setCell(0, 2, 'com.testscripts.FilmsPageTest')
+data.setCell(0, 3, 60094);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyMovieOnIMDB')
+data.setCell(1, 2, 'com.testscripts.FilmsPageTest')
+data.setCell(1, 3, 9027);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyLogout')
+data.setCell(2, 2, 'com.testscripts.HomePageTest')
+data.setCell(2, 3, 7835);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyLoginWithValidData')
+data.setCell(3, 2, 'com.testscripts.HomePageTest')
+data.setCell(3, 3, 6672);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyInvalidLogin')
+data.setCell(4, 2, 'com.testscripts.HomePageTest')
+data.setCell(4, 3, 6621);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifySearch')
+data.setCell(5, 2, 'com.testscripts.VideoPageTest')
+data.setCell(5, 3, 3361);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyNoResultFoundDisplayedForSpecialChar')
+data.setCell(6, 2, 'com.testscripts.VideoPageTest')
+data.setCell(6, 3, 2070);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifySearchResultDisplayed')
+data.setCell(7, 2, 'com.testscripts.HomePageTest')
+data.setCell(7, 3, 1891);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyNoResultFoundSearch')
+data.setCell(8, 2, 'com.testscripts.VideoPageTest')
+data.setCell(8, 3, 1323);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyListOfFilmsDisplayedInSelector')
+data.setCell(9, 2, 'com.testscripts.FilmsPageTest')
+data.setCell(9, 3, 1311);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifySlideNextPrev')
+data.setCell(10, 2, 'com.testscripts.HomePageTest')
+data.setCell(10, 3, 990);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyFilmList')
+data.setCell(11, 2, 'com.testscripts.FilmsPageTest')
+data.setCell(11, 3, 672);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyHomePageTitleTest')
+data.setCell(12, 2, 'com.testscripts.HomePageTest')
+data.setCell(12, 3, 103);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifySlideDisplayed')
+data.setCell(13, 2, 'com.testscripts.HomePageTest')
+data.setCell(13, 3, 26);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyFilmPageOpen')
+data.setCell(14, 2, 'com.testscripts.FilmsPageTest')
+data.setCell(14, 3, 20);
+window.suiteTableData['StarWarTest']= { tableData: data, tableDiv: 'times-div-StarWarTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-StarWarTest">
+              </div> <!-- times-div-StarWarTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-StarWarTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for StarWarTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyFilmPageOpenAfterSelectingFilm</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">THE PHANTOM MENACE</span>
+                <span class="reporter-method-output">ATTACK OF THE CLONES</span>
+                <span class="reporter-method-output">REVENGE OF THE SITH</span>
+                <span class="reporter-method-output">A NEW HOPE</span>
+                <span class="reporter-method-output">THE EMPIRE STRIKES BACK</span>
+                <span class="reporter-method-output">RETURN OF THE JEDI</span>
+                <span class="reporter-method-output">THE FORCE AWAKENS</span>
+                <span class="reporter-method-output">THE LAST JEDI</span>
+                <span class="reporter-method-output">THE RISE OF SKYWALKER</span>
+                <span class="reporter-method-output">SOLO</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyFilmList</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STAR WARS: THE RISE OF SKYWALKER</span>
+                <span class="reporter-method-output">SOLO: A STAR WARS STORY</span>
+                <span class="reporter-method-output">STAR WARS: THE LAST JEDI</span>
+                <span class="reporter-method-output">ROGUE ONE: A STAR WARS STORY</span>
+                <span class="reporter-method-output">STAR WARS: THE FORCE AWAKENS</span>
+                <span class="reporter-method-output">STAR WARS: RETURN OF THE JEDI</span>
+                <span class="reporter-method-output">STAR WARS: THE EMPIRE STRIKES BACK</span>
+                <span class="reporter-method-output">STAR WARS: A NEW HOPE</span>
+                <span class="reporter-method-output">STAR WARS: REVENGE OF THE SITH</span>
+                <span class="reporter-method-output">STAR WARS: ATTACK OF THE CLONES</span>
+                <span class="reporter-method-output">STAR WARS: THE PHANTOM MENACE</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyMovieOnIMDB</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">IMDB page Star Wars: Attack of the Clones | StarWars.com</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-StarWarTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-StarWarTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testscripts.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageTitleTest</span>
+                <span class="method-start">14255 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14360 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15071 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidLogin</span>
+                <span class="method-start">28375 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34999 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">35748 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidData</span>
+                <span class="method-start">49599 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">56272 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">57031 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogout</span>
+                <span class="method-start">71206 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">79042 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">79757 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchResultDisplayed</span>
+                <span class="method-start">93023 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">94915 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">95620 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySlideDisplayed</span>
+                <span class="method-start">109179 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">109206 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">109908 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySlideNextPrev</span>
+                <span class="method-start">123738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">124728 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testscripts.VideoPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">125441 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyNoResultFoundDisplayedForSpecialChar</span>
+                <span class="method-start">142476 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">144547 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">145258 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyNoResultFoundSearch</span>
+                <span class="method-start">162122 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">163445 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">164152 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearch</span>
+                <span class="method-start">180304 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">183665 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testscripts.FilmsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">184380 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFilmList</span>
+                <span class="method-start">199160 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">199833 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">200535 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFilmPageOpen</span>
+                <span class="method-start">215583 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">215605 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">216327 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFilmPageOpenAfterSelectingFilm</span>
+                <span class="method-start">232929 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">293024 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">293787 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyListOfFilmsDisplayedInSelector</span>
+                <span class="method-start">308266 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">309578 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">310324 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyMovieOnIMDB</span>
+                <span class="method-start">325367 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">334395 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

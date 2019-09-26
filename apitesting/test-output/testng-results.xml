@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-09-25T21:39:44 CDT" name="Swapi" finished-at="2019-09-25T21:39:48 CDT" duration-ms="4026">
+    <groups>
+    </groups>
+    <test started-at="2019-09-25T21:39:44 CDT" name="PlanetsAPI" finished-at="2019-09-25T21:39:48 CDT" duration-ms="4026">
+      <class name="com.tests.GetAPITest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.GetAPITest@15761df8]" started-at="2019-09-25T21:39:44 CDT" name="setUp" finished-at="2019-09-25T21:39:45 CDT" duration-ms="1005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.GetAPITest@15761df8]" started-at="2019-09-25T21:39:44 CDT" name="setUp" finished-at="2019-09-25T21:39:45 CDT" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.GetAPITest@15761df8]" started-at="2019-09-25T21:39:44 CDT" name="setUp" finished-at="2019-09-25T21:39:45 CDT" duration-ms="945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.GetAPITest@15761df8]" started-at="2019-09-25T21:39:44 CDT" name="setUp" finished-at="2019-09-25T21:39:46 CDT" duration-ms="1118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.GetAPITest@15761df8]" started-at="2019-09-25T21:39:44 CDT" name="setUp" finished-at="2019-09-25T21:39:46 CDT" duration-ms="1019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateResultIsNotNull()[pri:0, instance:com.tests.GetAPITest@15761df8]" started-at="2019-09-25T21:39:45 CDT" name="validateResultIsNotNull" description="Result" finished-at="2019-09-25T21:39:45 CDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResultIsNotNull -->
+        <test-method signature="validateResultIsNotMoreThan10()[pri:0, instance:com.tests.GetAPITest@15761df8]" started-at="2019-09-25T21:39:45 CDT" name="validateResultIsNotMoreThan10" description="Result is not more than 10 on each API call" finished-at="2019-09-25T21:39:48 CDT" duration-ms="2930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResultIsNotMoreThan10 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.tests.GetAPITest@15761df8]" started-at="2019-09-25T21:39:45 CDT" name="close" finished-at="2019-09-25T21:39:45 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.GetAPITest@15761df8]" started-at="2019-09-25T21:39:45 CDT" name="setUp" finished-at="2019-09-25T21:39:46 CDT" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCount()[pri:0, instance:com.tests.GetAPITest@15761df8]" started-at="2019-09-25T21:39:45 CDT" name="validateCount" description="Count" finished-at="2019-09-25T21:39:45 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCount -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.tests.GetAPITest@15761df8]" started-at="2019-09-25T21:39:46 CDT" name="close" finished-at="2019-09-25T21:39:46 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method signature="validateNameIsNotNull()[pri:0, instance:com.tests.GetAPITest@15761df8]" started-at="2019-09-25T21:39:46 CDT" name="validateNameIsNotNull" description="Name is not null in for all records" finished-at="2019-09-25T21:39:48 CDT" duration-ms="2764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNameIsNotNull -->
+        <test-method signature="validatePageInvalid()[pri:0, instance:com.tests.GetAPITest@15761df8]" started-at="2019-09-25T21:39:46 CDT" name="validatePageInvalid" description="Error displayed if Page number is invalid" finished-at="2019-09-25T21:39:46 CDT" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageInvalid -->
+        <test-method signature="validateStatus()[pri:0, instance:com.tests.GetAPITest@15761df8]" started-at="2019-09-25T21:39:46 CDT" name="validateStatus" description="Status" finished-at="2019-09-25T21:39:46 CDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatus -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.tests.GetAPITest@15761df8]" started-at="2019-09-25T21:39:46 CDT" name="close" finished-at="2019-09-25T21:39:46 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.tests.GetAPITest@15761df8]" started-at="2019-09-25T21:39:46 CDT" name="close" finished-at="2019-09-25T21:39:46 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.tests.GetAPITest@15761df8]" started-at="2019-09-25T21:39:48 CDT" name="close" finished-at="2019-09-25T21:39:48 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.tests.GetAPITest@15761df8]" started-at="2019-09-25T21:39:48 CDT" name="close" finished-at="2019-09-25T21:39:48 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.tests.GetAPITest -->
+      <class name="com.tests.GetAPIByID">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.GetAPIByID@6ab7a896]" started-at="2019-09-25T21:39:46 CDT" name="setUp" finished-at="2019-09-25T21:39:47 CDT" duration-ms="1006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.GetAPIByID@6ab7a896]" started-at="2019-09-25T21:39:46 CDT" name="setUp" finished-at="2019-09-25T21:39:47 CDT" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.GetAPIByID@6ab7a896]" started-at="2019-09-25T21:39:46 CDT" name="setUp" finished-at="2019-09-25T21:39:47 CDT" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateIDNotAvailable()[pri:0, instance:com.tests.GetAPIByID@6ab7a896]" started-at="2019-09-25T21:39:47 CDT" name="validateIDNotAvailable" description="Error displayed if ID not available" finished-at="2019-09-25T21:39:47 CDT" duration-ms="992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIDNotAvailable -->
+        <test-method signature="validateIDWithInvalid()[pri:0, instance:com.tests.GetAPIByID@6ab7a896]" started-at="2019-09-25T21:39:47 CDT" name="validateIDWithInvalid" description="Error displayed if ID has invalid character" finished-at="2019-09-25T21:39:47 CDT" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIDWithInvalid -->
+        <test-method signature="validateMandatoryFields()[pri:0, instance:com.tests.GetAPIByID@6ab7a896]" started-at="2019-09-25T21:39:47 CDT" name="validateMandatoryFields" description="Mandatory fields are present" finished-at="2019-09-25T21:39:47 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMandatoryFields -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.GetAPIByID@6ab7a896]" started-at="2019-09-25T21:39:47 CDT" name="setUp" finished-at="2019-09-25T21:39:48 CDT" duration-ms="1459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.tests.GetAPIByID@6ab7a896]" started-at="2019-09-25T21:39:47 CDT" name="close" finished-at="2019-09-25T21:39:47 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.tests.GetAPIByID@6ab7a896]" started-at="2019-09-25T21:39:47 CDT" name="close" finished-at="2019-09-25T21:39:47 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.GetAPIByID@6ab7a896]" started-at="2019-09-25T21:39:47 CDT" name="setUp" finished-at="2019-09-25T21:39:48 CDT" duration-ms="945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.tests.GetAPIByID@6ab7a896]" started-at="2019-09-25T21:39:47 CDT" name="close" finished-at="2019-09-25T21:39:48 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.GetAPIByID@6ab7a896]" started-at="2019-09-25T21:39:48 CDT" name="setUp" finished-at="2019-09-25T21:39:48 CDT" duration-ms="965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateNameIsNotNull()[pri:0, instance:com.tests.GetAPIByID@6ab7a896]" started-at="2019-09-25T21:39:48 CDT" name="validateNameIsNotNull" description="Name should not be null" finished-at="2019-09-25T21:39:48 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNameIsNotNull -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.tests.GetAPIByID@6ab7a896]" started-at="2019-09-25T21:39:48 CDT" name="close" finished-at="2019-09-25T21:39:48 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method signature="validateStatus()[pri:0, instance:com.tests.GetAPIByID@6ab7a896]" started-at="2019-09-25T21:39:48 CDT" name="validateStatus" description="Status" finished-at="2019-09-25T21:39:48 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatus -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.tests.GetAPIByID@6ab7a896]" started-at="2019-09-25T21:39:48 CDT" name="close" finished-at="2019-09-25T21:39:48 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method signature="validateUrlData()[pri:0, instance:com.tests.GetAPIByID@6ab7a896]" started-at="2019-09-25T21:39:48 CDT" name="validateUrlData" description="Url data is correct" finished-at="2019-09-25T21:39:48 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUrlData -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.tests.GetAPIByID@6ab7a896]" started-at="2019-09-25T21:39:48 CDT" name="close" finished-at="2019-09-25T21:39:48 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.tests.GetAPIByID -->
+    </test> <!-- PlanetsAPI -->
+  </suite> <!-- Swapi -->
+</testng-results>
